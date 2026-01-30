@@ -1,0 +1,33 @@
+A tag <b> coloca um termo em negrito (não semantica) (forma)
+a tag <strong> coloca um termo em destaque (semantica) (sentido)
+
+A tag <i> coloca um termo em itálico (não semantica) (forma)
+A tag <EM> coloca um termo em enfase (semantica) (sentido)
+
+<mark>	-> marca a parte selecionada do texto;
+
+<big>	-> deixa o texto grande (obsoleto);
+
+<small>	-> deixa o texto pequeno;
+
+<del>	-> marca um texto como excluído, para indicar que ele deve ser lido, mas não considerado;
+
+<ins>	-> marca um texto como inserido para dar ênfase e indicar que ele foi adicionado depois;
+
+<u>		-> existe também o sublinhado com a tag U (não semântica);
+
+<sup>	-> texto sobrescrito, para inserir coisas do tipo x^20 + 3;
+
+<sub>	-> Texto subscrito, para inserir coisas do tipo H2O;
+
+
+<mark style="background-color: blue;">    -> cor de uma marcação específica;
+
+style dentro de head, abrangente
+
+
+<style>					/* cor de todas as marcações do site */
+        mark {
+            background-color: yellow;
+        }
+</style>

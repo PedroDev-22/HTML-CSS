@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /* SELETORES PERSONALIZADOS
+            #  - id
+            .  - class
+            :  - pseudo classes
+            :: - pseudo-elementos
+            >  - children
+        */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: darkblue;
+        }
+
+        a:hover {
+            color: rgb(45, 45, 138);
+
+         }
+
+        a:active {
+            color: blueviolet;
+        }
+
+        .especial::before { /* coloca antes do link */
+            content: '=> ';
+            color: darkgrey;
+        }
+
+        .especial::after { /* faz aparecer algo após todas as pseudo-classes terem acontecido e coloca depois do objeto referenciaddo (link especial nesse caso)*/
+            content: ' <='; /* coloca um conteúdo (nesse caso um texto) */
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgrey;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io" target="_blank" rel="external">Repositório Github</a></li>
+        <li><a href="https://youtube.com/cursoemvideo/" target="_blank" rel="external" class="especial">Canal do youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com" target="_blank" rel="external">Site do Cursoemvídeo</a></li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,205 @@
+@font-face {
+    font-family: 'android';
+    src: local("idroid.otf"), url(pacote-projeto-d010/fontes/idroid.otf);
+
+}
+
+@font-face {
+    font-family: 'paragrafo';
+    src: url('pacote-projeto-d010/fontes/idroid.otf');
+    
+}
+
+/* CONFIGS INICIAIS */
+
+body {
+    margin: 0;
+    background-color: lightgray;
+}
+
+header {
+    font-family: 'paragrafo', Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(180deg, rgb(63, 151, 63), rgba(35, 35, 35, 0.907));
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+}
+
+p {
+    font-family: 'roboto', sans-serif;
+}
+
+main > section > article > p > a {
+    text-decoration: none;
+    color: rgb(0, 105, 0);
+
+}
+
+main > section > article > p > a:hover {
+    text-decoration: underline;
+    color: rgb(20, 42, 20);
+
+    
+}
+
+
+/* PRIMEIRA PARTE - Header */
+
+
+header > h1, header > p {
+    font-family: 'roboto', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+header > nav > a {
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    margin: 0;
+    padding: 10px 10px 10px 10px;
+    color: rgb(175, 255, 175);
+}
+
+header > nav > a:hover {
+    background-color: rgba(66, 119, 66, 0.536);
+}
+
+
+
+main {
+    width: 1150px;
+    height: 2330px;
+    margin: 0 auto;
+    padding: 16px;
+    margin-bottom: 30px;
+    background-color: rgb(255, 252, 248);  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.419); 
+    border-radius: 0px 0px 10px 10px; 
+}
+
+/* Texto - SEGUNDA PARTE */
+
+#historia > article > h2 {
+    font-family: 'android', sans-serif;
+    color: rgba(0, 104, 0, 0.726);
+    margin: 0;
+}
+
+main > section > article > p {
+    font-family: 'roboto', sans-serif;
+    text-indent: 16px;
+}
+
+main > section > article > h3 {
+    font-family: 'android', sans-serif;
+    color: rgb(43, 120, 43);
+    background-image: linear-gradient(90deg, rgba(44, 138, 44, 0.636), white);
+    padding: 1px;
+    padding-left: 7px;
+}
+
+
+.linkimg {
+    background-color: lightgreen;
+    text-decoration: none;
+    padding: 2px;
+}
+
+.linkimg::after {
+    content: ' 🔗';
+
+}
+
+
+
+/* FOTOS - TERCEIRA PARTE*/
+
+.img {
+    width: 100%;
+}
+
+#bugdroid {
+    display: block;
+    margin: 0 auto;
+}
+
+#video {
+    border: 20px solid green;
+    border-radius: 10px;
+}
+
+
+/* LISTA */
+
+#lista {
+    height: 335px;
+    margin-top: 16px;
+    border-radius: 10px;
+    background-color: rgb(157, 255, 157);
+    padding: 0px;
+    padding-top: 1px;
+    box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.175);
+}
+
+#titulo_lista {
+    color: white;
+    background-color: rgb(0, 56, 0);
+    padding: 4px 4px 4px 8px;
+    margin: 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#intruso {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+li::before {
+    content: '✔️';
+    color: #e74c3c;
+    font-size: 0.6em;
+    margin-right: 8px;
+    display: inline-block;
+    width: 10px;
+}   
+
+.listalado::before {
+    padding-left: 600px;
+    content: '✔️';
+    color: #e74c3c;
+    font-size: 0.6em;
+    margin-right: 8px;
+    display: inline-block;
+    width: 10px;
+}
+
+#fim {
+    padding-top: 5px;
+    text-align: center;
+}
+
+#linkf {
+    text-decoration: none;
+    color: rgb(0, 105, 0);
+}
+
+#linkf:hover {
+    text-decoration: underline;
+    color: rgb(20, 42, 20);
+}
+
+/* FOOTER */
+
+#footer {
+    height: 40px;
+    padding: 0.02px;
+    text-align: center;
+    background-color: rgb(0, 56, 0);
+    color: white;
+}

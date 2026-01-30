@@ -1,0 +1,27 @@
+body {
+    background-color: rgba(54, 40, 67, 0.545);
+}
+
+.link {
+    padding: 10px;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: rgb(93, 0, 93);
+    text-decoration: underline;
+}
+
+#botao:hover {
+    color: rgba(112, 33, 112, 0.856);
+}
+
+#botao:active {
+    color: blueviolet;
+}
+
+#botao {
+    font-size: 15px;
+    color: rgb(93, 0, 93);
+}
