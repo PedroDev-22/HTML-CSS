@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio flexbox</title>
+    <style>
+        #container {
+            width: 100vw;
+            min-height: 100vh;
+            background-color: gray;
+            text-align: center;
+
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-evenly;
+            align-items: center;
+            align-content: space-evenly;
+        }
+
+        .itens {
+            width: 100px;
+            height: 70px;
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+    <main id="container">
+        <div class="itens">1</div>
+        <div class="itens">2</div>
+        <div class="itens">3</div>
+        <div class="itens">4</div>
+        <div class="itens">5</div>
+        <div class="itens">6</div>
+        <div class="itens">7</div>
+        <div class="itens">8</div>
+    </main>
+</body>
+</html>
